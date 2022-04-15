@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    font: 16px '맑은 고딕';
+}
+
+ul, 
+ol {
+    list-style: none;
+
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 0;
+}
+
+h2 {
+    margin-bottom: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header, 
+nav, 
+main, 
+article, 
+aside, 
+section, 
+footer {
+    display: block;
+}
+
+
+
+
+
