@@ -168,25 +168,20 @@ footer {
 
     /* gnb */
     .gnb {
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .gnb > li {
-        width: 100%;
+        width: 25%;
     }
 
-    .gnb > li > a, 
-    #triger > a {
-        font-weight: 600;
-        text-align: center;
-        color: #fff;
-        padding: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-left: 0;
+    .gnb > li > a {
+        border-right: 1px solid
+        rgba(255, 255, 255, 0.3);
+        border-top: 0;
+    }
+
+    .gnb > li:last-child > a {
         border-right: 0;
-        border-bottom: 0;
-        background-color: rgb(43, 43, 187);
     }
-
 }
