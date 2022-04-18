@@ -228,4 +228,31 @@ footer {
     .education > h3 {
         margin-bottom: 10px;
     }
+
+    /*===== footer =====*/
+    footer {
+        padding-bottom:  50px;
+    }
+
+    .footer-flex-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer-flex-box > address {
+        width: 80%;
+        background-color: red;
+    }
+
+    .footer-flex-box .SNS {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+
+    .footer-flex-box .SNS a {
+        display: inline-block;
+        margin-right: 0px;
+    }
+
 }
